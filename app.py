@@ -12,3 +12,6 @@ def index():
 @app.route('/two')
 def two():
     return '<h1>Default Page</h1> <h1>Man Reference</h1>'
+
+if __name__ == '__main__':
+      app.run(host='0.0.0.0', port=8000)
